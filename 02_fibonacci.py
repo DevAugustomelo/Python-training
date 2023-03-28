@@ -7,7 +7,7 @@ def fib(n):
 
     prox = inic + ant
     if 0 <= n <= 2 or prox == n:
-        print('ok')
+        print('Ok, é uma sequência de Fibonacci.')
 
     else:
         while prox < n:
